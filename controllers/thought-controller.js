@@ -27,7 +27,7 @@ const thoughtController = {
     },
 
     // create thought
-    createThought({ params }, res) {
+    createThought({ params, body }, res) {
         Thought.create({
             thoughtText: body.thoughtText,
             username: body.username,
