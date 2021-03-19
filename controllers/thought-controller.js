@@ -2,7 +2,7 @@ const { Thought, User } = require('../models');
 
 const thoughtController = {
     // get all thought
-    getAllThought(req, res) {
+    getAllThoughts(req, res) {
         Thought.find({})
         .select('-__v')
         .then(dbUserData => res.json(dbUserData))
@@ -121,3 +121,5 @@ const thoughtController = {
         .catch(err => res.json(err));
     }
 };
+
+module.exports = thoughtController;
