@@ -21,7 +21,7 @@ A web based application that provides a service for users to be able to easily a
 - Download [Node](https://nodejs.org/en/).
 - Inside root directory terminal, run 'npm init'.
 - Inside root directory terminal, run 'npm install' to install application dependencies. 
-- In a seperate terminal of project directory, run 'mongod' to initialize MongoDB database.
+- In a seperate terminal of project directory, run 'mongod' to initialize MongoDB server database.
 - Inside root directory terminal, run 'npm start' to activate application.
 
 ## Usage
@@ -29,7 +29,7 @@ A web based application that provides a service for users to be able to easily a
 - API routes can be tested on servers. As this is a back-end ONLY application, there will be no front end to display results. 
 Instead, user will need to utilize an API test client to test out the API routes located in routes/api folder. 
 - Developer utilized [Insomnia](https://insomnia.rest/download) as the API test client. 
-- Please review video of application [demo]().
+- Please review video of application [demo](https://www.youtube.com/watch?v=6mb6I6CaAwc&ab_channel=Elysiayn).
 
 ## Features
 - Utilize MongoDB and Mongoose instead of MySQL and Sequelize for the back-end of the server. 
