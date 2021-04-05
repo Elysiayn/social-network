@@ -17,8 +17,7 @@ A web based application that provides a service for users to be able to easily a
 
 ## Installation
 - Clone down the application code from GitHub.
-- Please ensure you have a node.js integrated terminal before running 'npm inquirer' in the of the root project directory. If not:
-- Download [Node](https://nodejs.org/en/).
+- Please ensure you have a node.js integrated terminal If not, download [Node](https://nodejs.org/en/).
 - Inside root directory terminal, run 'npm init'.
 - Inside root directory terminal, run 'npm install' to install application dependencies. 
 - In a seperate terminal of project directory, run 'mongod' to initialize MongoDB server database.
