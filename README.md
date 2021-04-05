@@ -5,7 +5,7 @@
 
 
 ## Description
-A web based application that provides a service for users to be able to easily access an interactive community forum for event-related decorations. User's will be able to post listings with images of their event items, while also being able to browse other users listings as well. This application is built utilizing MongoDB, Mongoose and Express.js.
+An API for a social network web application where users can share their thoughts, react to friend's thoughts, and create a friend list. This application is built utilizing MongoDB, Mongoose and Express.js.
 
 ## Table of Contents
 - [Usage](#Usage)
